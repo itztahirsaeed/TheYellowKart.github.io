@@ -9,6 +9,13 @@
 
 
 }
+@media (min-width:600px) and (max-width:2100px) {
+.barz{
+  visibility: hidden;
+  }
+
+}
+
 .yellow{
   color: white;
 }
@@ -201,12 +208,6 @@ align-content: flex-end;
 
   font-weight: bold;
 }
-
-}
-@media (min-width:600px) and (max-width:1300px) {
-.barz{
-  visibility: hidden;
-  }
 
 }
 
