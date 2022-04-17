@@ -2,20 +2,21 @@
 
 	
 
+
 var x = document.getElementById("d1");
 		var z = document.getElementById("jo");
-		x.style.visibility = "none";
-		z.style.visibility = "none";
+		x.style.display = "none";
+		z.style.display = "none";
 
 
 window.setTimeout(() => {
   
-var x1 = document.getElementById("d1");
-		var zz = document.getElementById("jo");
-		x1.style.visibility = "block";
-		zz.style.visibility = "block";
-		var za = document.getElementById("l1");
-		za.style.visibility = "none";
+var x = document.getElementById("d1");
+		var z = document.getElementById("jo");
+		x.style.display = "block";
+		z.style.display = "block";
+		var zz = document.getElementById("l1");
+		zz.style.display = "none";
 		
 		
 }, 3000)
