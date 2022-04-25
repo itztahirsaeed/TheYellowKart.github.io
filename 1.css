@@ -316,7 +316,12 @@ a {
 }
 
 p {
-    color: #555
+    color: #555;
+    text-decoration: line-through;
+}
+.new{
+    color: #555;
+    text-decoration: none;
 }
 
 .container {
